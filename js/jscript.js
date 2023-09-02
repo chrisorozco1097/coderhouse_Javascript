@@ -39,6 +39,7 @@ function paymentMethod() {
                 break;
             default:
                 alert("We are sorry, that is not a valid option")
+                paymentMethod();
                 break;
         }
     }
